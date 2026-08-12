@@ -48,7 +48,7 @@ export const portfolio = {
       featured: true,
       visual: "automl",
       visuals: ["automl"],
-      images: ["/pimages/automl/1.png", "/pimages/automl/2.png"],
+      images: ["pimages/automl/1.png", "pimages/automl/2.png"],
       github: "https://github.com/uangn/No-Code-ML-Models-generator",
     },
     {
