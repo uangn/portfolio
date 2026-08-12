@@ -667,10 +667,13 @@ a:focus-visible {
     padding: 82px 0;
   }
   .nav-links {
-    display: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
   }
   .brand span:last-child {
-    display: none;
+    display: inline;
   }
   .hero-copy h1 {
     font-size: 3.35rem;
