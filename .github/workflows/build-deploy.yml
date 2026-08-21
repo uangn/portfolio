@@ -1,7 +1,4 @@
 name: Build and Deploy react app
-cache:
-  paths:
-    - node_modules/
 
 on:
   push:
@@ -20,6 +17,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "22"
+          cache: "npm"
       - name: Install dependencies
         run: npm install
       - name: Build the app
