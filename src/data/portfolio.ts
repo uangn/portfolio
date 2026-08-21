@@ -15,7 +15,7 @@ export type Project = {
 export const portfolio = {
   name: "Quang Nguyen",
   role: "Full-Stack Developer",
-  heroTitle: "I build full-stack products where software engineering meets AI.",
+  heroTitle: "Build full-stack products where software engineering meets AI.",
   heroText:
     "React and TypeScript on the frontend. Python and FastAPI on the backend. I focus on reliable, maintainable products that solve real problems.",
   location: "Clausthal-Zellerfeld, Germany",
